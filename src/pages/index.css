@@ -1,0 +1,16 @@
+@import url(../blocks/header/header.css);
+@import url(../blocks/promo/promo.css);
+@import url(../blocks/flowers/flowers.css);
+@import url(../blocks/catalog/catalog.css);
+@import url(../vendor/fonts.css);
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+}
+
+.page {
+  margin: 0 auto;
+  background-color: #181b1e;
+}

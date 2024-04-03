@@ -1,0 +1,35 @@
+.header {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 90px;
+
+  margin-top: 20px;
+  height: 90px;
+  align-items: center;
+  color: white;
+  font-family: "Inter";
+}
+.header__logo {
+  width: 60px;
+}
+.header__number {
+  margin: 0;
+  font-size: 20px;
+}
+.header__list {
+  display: flex;
+  list-style-type: none;
+  gap: 35px;
+  width: fit-content;
+}
+.header__link {
+  font-size: 20px;
+
+  cursor: pointer;
+}
+.header__link a {
+  text-decoration: none;
+  color: white;
+}
