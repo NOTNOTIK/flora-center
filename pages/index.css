@@ -2,6 +2,10 @@
 @import url(../blocks/promo/promo.css);
 @import url(../blocks/flowers/flowers.css);
 @import url(../blocks/catalog/catalog.css);
+@import url(../blocks/joy/joy.css);
+@import url(../blocks/magazine/magazine.css);
+@import url(../blocks/sales/sales.css);
+@import url(../blocks/footer/footer.css);
 @import url(../vendor/fonts.css);
 html {
   scroll-behavior: smooth;
@@ -12,5 +16,7 @@ body {
 
 .page {
   margin: 0 auto;
+}
+.background {
   background-color: #181b1e;
 }

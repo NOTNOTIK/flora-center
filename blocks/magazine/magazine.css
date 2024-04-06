@@ -1,0 +1,52 @@
+.magazine {
+  padding-top: 400px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  background-color: #181b1e;
+}
+.magazine__block {
+  width: 320px;
+  border-radius: 20px;
+  height: 800px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+.magazine__title {
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  margin: 0;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  font-family: "Bebas Neue", sans-serif;
+}
+#block1 {
+  background: url(../../images/image1.png);
+
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#block2 {
+  background: url(../../images/image2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#block3 {
+  background: url(../../images/image4.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#block4 {
+  background: url(../../images/image1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#block5 {
+  background: url(../../images/image1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}

@@ -4,7 +4,6 @@
   display: flex;
   justify-content: space-between;
   margin: 0 90px;
-
   margin-top: 20px;
   height: 90px;
   align-items: center;
@@ -26,8 +25,14 @@
 }
 .header__link {
   font-size: 20px;
-
   cursor: pointer;
+
+  position: relative;
+  top: 0;
+  transition: top ease 0.5s;
+}
+.header__link:hover {
+  top: -10px;
 }
 .header__link a {
   text-decoration: none;

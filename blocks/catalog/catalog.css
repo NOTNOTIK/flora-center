@@ -1,5 +1,6 @@
 .catalog {
   padding-top: 99px;
+  background-color: #181b1e;
 }
 .catalog__block {
   background-image: url("../../images/Subtract.png");

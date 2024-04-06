@@ -23,6 +23,7 @@
   width: 380px;
   height: 460px;
   border-radius: 12px;
+  object-fit: cover;
 }
 .flowers__block {
   width: 380px;
